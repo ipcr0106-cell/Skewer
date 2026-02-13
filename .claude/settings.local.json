@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "WebFetch(domain:kovea.co.kr)"
+    ]
+  }
+}

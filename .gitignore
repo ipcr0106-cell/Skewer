@@ -1,0 +1,4 @@
+*.pdf
+Gemini_Generated_Image_*
+.DS_Store
+Thumbs.db

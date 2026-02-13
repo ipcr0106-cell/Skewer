@@ -7,12 +7,12 @@
   <meta name="description" content="CORE-BORE의 혁명을 경험하는 가장 완벽한 시작. Skewer 2ea + Core-Refill 10ea 기본 세트.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
-  <!-- NAVIGATION -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-logo font-display">CORE-BORE</a>
@@ -20,17 +20,15 @@
         <li><a href="../index.html#story">Story</a></li>
         <li><a href="../index.html#products">Products</a></li>
         <li><a href="../index.html#engineering">Engineering</a></li>
-        <li><a href="../index.html#flavors">Flavors</a></li>
         <li><a href="../index.html#howto">How to Use</a></li>
       </ul>
-      <a href="../index.html#products" class="nav-cta">Shop Now</a>
+      <a href="../index.html#products" class="nav-cta">Shop</a>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <!-- BREADCRUMB -->
   <div class="detail-breadcrumb">
     <div class="container">
       <a href="../index.html">Home</a> <span>/</span>
@@ -39,7 +37,7 @@
     </div>
   </div>
 
-  <!-- PRODUCT DETAIL -->
+  <!-- TOP: Image + Purchase Info -->
   <section class="detail-hero">
     <div class="container">
       <div class="detail-grid">
@@ -58,47 +56,73 @@
           <h1 class="detail-title font-display">The Founder's Kit</h1>
           <p class="detail-subtitle font-serif">기본 세트 &mdash; 입문자 및 커플 캠퍼</p>
           <div class="detail-divider"></div>
-          <p class="detail-concept">CORE-BORE의 혁명을 경험하는 가장 완벽한 시작.</p>
-          <p class="detail-desc">
-            캠핑의 밤, 연인 혹은 친구와 함께 '안에서부터 터지는 맛'을 처음으로 경험하고 싶은 분들을 위해 설계되었습니다.
-            항공우주 등급의 304 스테인리스 스틸로 제작된 정밀 꼬치 2개와,
-            CORE-BORE의 베스트셀러 맛 5종을 한 번에 만나는 스타터 샘플러 패키지로 구성되었습니다.
-          </p>
 
-          <div class="detail-specs">
-            <h3>구성품 (Components)</h3>
-            <ul>
-              <li>
-                <strong>Skewer 2ea</strong>
-                <span>304 스테인리스 스틸 정밀 꼬치, Vortex-12 타공 시스템</span>
-              </li>
-              <li>
-                <strong>Core-Refill 10ea</strong>
-                <span>베스트 5종 스타터 샘플러 패키지 (각 2개씩)</span>
-              </li>
-            </ul>
+          <div class="detail-price-area">
+            <p class="detail-price">&#8361;89,000</p>
+            <div class="detail-shipping-info">
+              <div class="info-row">
+                <span class="label">배송비</span>
+                <span class="value free-ship">무료배송</span>
+              </div>
+            </div>
           </div>
 
-          <div class="detail-why">
-            <h3>Why this?</h3>
-            <p>캠핑의 밤, 연인 혹은 친구와 함께 '안에서부터 터지는 맛'을 처음으로 경험하고 싶은 분들을 위해 설계되었습니다.
-              부담 없는 구성으로 CORE-BORE의 핵심을 체험하세요.</p>
+          <div class="detail-total">
+            <span class="label">총 상품금액</span>
+            <span class="value">&#8361;89,000</span>
           </div>
 
-          <div class="detail-recommend">
-            <span class="recommend-label">추천 대상</span>
-            <span class="recommend-tag">입문자</span>
-            <span class="recommend-tag">커플 캠퍼</span>
-            <span class="recommend-tag">소규모 캠핑</span>
+          <div class="detail-btn-group">
+            <button class="detail-cart-btn" onclick="alert('준비 중입니다. 곧 오픈 예정!')">Add to Cart</button>
+            <button class="detail-buy-btn" onclick="alert('준비 중입니다. 곧 오픈 예정!')">Buy Now</button>
           </div>
-
-          <button class="detail-cart-btn" onclick="alert('준비 중입니다. 곧 오픈 예정!')">Add to Cart</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PRODUCT FEATURES -->
+  <!-- MIDDLE: Product Description -->
+  <section class="detail-description">
+    <div class="container">
+      <div class="detail-desc-inner fade-up">
+        <p class="detail-concept">CORE-BORE의 혁명을 경험하는 가장 완벽한 시작.</p>
+        <p class="detail-desc">
+          캠핑의 밤, 연인 혹은 친구와 함께 '안에서부터 터지는 맛'을 처음으로 경험하고 싶은 분들을 위해 설계되었습니다.
+          항공우주 등급의 304 스테인리스 스틸로 제작된 정밀 꼬치 2개와,
+          CORE-BORE의 베스트셀러 맛 5종을 한 번에 만나는 스타터 샘플러 패키지로 구성되었습니다.
+        </p>
+
+        <div class="detail-specs">
+          <h3>구성품 (Components)</h3>
+          <ul>
+            <li>
+              <strong>Skewer 2ea</strong>
+              <span>304 스테인리스 스틸 정밀 꼬치, Vortex-12 타공 시스템</span>
+            </li>
+            <li>
+              <strong>Core-Refill 10ea</strong>
+              <span>베스트 5종 스타터 샘플러 패키지 (각 2개씩)</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="detail-why">
+          <h3>Why this?</h3>
+          <p>캠핑의 밤, 연인 혹은 친구와 함께 '안에서부터 터지는 맛'을 처음으로 경험하고 싶은 분들을 위해 설계되었습니다.
+            부담 없는 구성으로 CORE-BORE의 핵심을 체험하세요.</p>
+        </div>
+
+        <div class="detail-recommend">
+          <span class="recommend-label">추천 대상</span>
+          <span class="recommend-tag">입문자</span>
+          <span class="recommend-tag">커플 캠퍼</span>
+          <span class="recommend-tag">소규모 캠핑</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
   <section class="section section-warm">
     <div class="container">
       <div class="detail-features fade-up">
@@ -147,7 +171,7 @@
           <p>전문가 세트</p>
         </a>
         <a href="skewer-expansion.html" class="other-card fade-up delay-1">
-          <div class="other-img"><img src="../images/skewer-single.png" alt="Skewer Expansion" style="object-fit: contain; background: #e0dbd4;"></div>
+          <div class="other-img"><img src="../images/skewer-single.png" alt="Skewer Expansion" style="object-fit: contain; background: #e8eaef;"></div>
           <h4 class="font-display">Skewer Expansion</h4>
           <p>꼬치 단품</p>
         </a>
@@ -160,13 +184,12 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="logo font-display">CORE-BORE</div>
-          <p>Meat the Core. Flavor from the Inside Out.<br>EST 1995</p>
+          <p>Meat the Core. Flavor from the Inside Out.<br>EST 1995 &mdash; Don't just cook the surface, conquer the core.</p>
         </div>
         <div class="footer-col">
           <h4>Products</h4>
@@ -204,15 +227,12 @@
   <script>
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
-    const mobileToggle = document.getElementById('mobileToggle');
-    mobileToggle.addEventListener('click', () => nav.classList.toggle('menu-open'));
+    document.getElementById('mobileToggle').addEventListener('click', () => nav.classList.toggle('menu-open'));
     document.querySelectorAll('.nav-links a').forEach(l => l.addEventListener('click', () => nav.classList.remove('menu-open')));
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
-
-    // Thumbnail gallery
     document.querySelectorAll('.detail-thumbs .thumb').forEach(thumb => {
       thumb.addEventListener('click', () => {
         document.querySelector('.detail-main-img img').src = thumb.querySelector('img').src;

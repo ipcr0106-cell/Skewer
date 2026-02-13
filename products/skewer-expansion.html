@@ -7,7 +7,8 @@
   <meta name="description" content="더 많은 불판, 더 많은 풍미. CORE-BORE 스큐어 단품 확장팩.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -19,10 +20,9 @@
         <li><a href="../index.html#story">Story</a></li>
         <li><a href="../index.html#products">Products</a></li>
         <li><a href="../index.html#engineering">Engineering</a></li>
-        <li><a href="../index.html#flavors">Flavors</a></li>
         <li><a href="../index.html#howto">How to Use</a></li>
       </ul>
-      <a href="../index.html#products" class="nav-cta">Shop Now</a>
+      <a href="../index.html#products" class="nav-cta">Shop</a>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
@@ -37,12 +37,13 @@
     </div>
   </div>
 
+  <!-- TOP: Image + Purchase Info -->
   <section class="detail-hero">
     <div class="container">
       <div class="detail-grid">
         <div class="detail-gallery fade-up">
           <div class="detail-main-img">
-            <img src="../images/skewer-single.png" alt="Skewer Expansion" style="object-fit: contain; background: #e8e0d6;">
+            <img src="../images/skewer-single.png" alt="Skewer Expansion" style="object-fit: contain; background: #e8eaef;">
           </div>
           <div class="detail-thumbs">
             <div class="thumb active"><img src="../images/skewer-single.png" alt="Skewer single"></div>
@@ -54,48 +55,83 @@
           <h1 class="detail-title font-display">Skewer Expansion</h1>
           <p class="detail-subtitle font-serif">꼬치 단품 &mdash; 장비 추가가 필요한 숙련자</p>
           <div class="detail-divider"></div>
-          <p class="detail-concept">더 많은 불판, 더 많은 풍미.</p>
-          <p class="detail-desc">
-            시즈닝 바를 밀어 넣기에 가장 최적화된 내부 직경과,
-            고르게 맛을 분사하는 12개의 정밀 타공을 갖춘 CORE-BORE 스큐어입니다.
-            이미 시즈닝 바를 보유하고 있거나,
-            한 번에 더 많은 요리를 올리고 싶은 분들을 위한 확장팩입니다.
-          </p>
 
-          <div class="detail-specs">
-            <h3>구성품 (Components)</h3>
-            <ul>
-              <li>
-                <strong>Option A: 3-Pack</strong>
-                <span>304 스테인리스 스틸 정밀 꼬치 3개</span>
-              </li>
-              <li>
-                <strong>Option B: 5-Pack</strong>
-                <span>304 스테인리스 스틸 정밀 꼬치 5개</span>
-              </li>
-            </ul>
+          <div class="detail-price-area">
+            <p class="detail-price">&#8361;45,000 <span class="price-range">~ &#8361;69,000</span></p>
+            <div class="detail-shipping-info">
+              <div class="info-row">
+                <span class="label">3-Pack</span>
+                <span class="value">&#8361;45,000</span>
+              </div>
+              <div class="info-row">
+                <span class="label">5-Pack</span>
+                <span class="value">&#8361;69,000</span>
+              </div>
+              <div class="info-row">
+                <span class="label">배송비</span>
+                <span class="value">&#8361;3,000 (5만원 이상 무료)</span>
+              </div>
+            </div>
           </div>
 
-          <div class="detail-why">
-            <h3>Why this?</h3>
-            <p>이미 CORE-BORE를 사용 중이고 스큐어만 추가로 필요한 숙련자를 위한 확장팩입니다.
-              대규모 바베큐 파티나 다양한 고기를 동시에 조리할 때,
-              더 많은 스큐어가 있으면 기다리는 시간 없이 즐길 수 있습니다.</p>
+          <div class="detail-total">
+            <span class="label">총 상품금액</span>
+            <span class="value">&#8361;45,000~</span>
           </div>
 
-          <div class="detail-recommend">
-            <span class="recommend-label">추천 대상</span>
-            <span class="recommend-tag">기존 사용자</span>
-            <span class="recommend-tag">장비 확장</span>
-            <span class="recommend-tag">대규모 파티</span>
+          <div class="detail-btn-group">
+            <button class="detail-cart-btn" onclick="alert('준비 중입니다. 곧 오픈 예정!')">Add to Cart</button>
+            <button class="detail-buy-btn" onclick="alert('준비 중입니다. 곧 오픈 예정!')">Buy Now</button>
           </div>
-
-          <button class="detail-cart-btn" onclick="alert('준비 중입니다. 곧 오픈 예정!')">Add to Cart</button>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- MIDDLE: Product Description -->
+  <section class="detail-description">
+    <div class="container">
+      <div class="detail-desc-inner fade-up">
+        <p class="detail-concept">더 많은 불판, 더 많은 풍미.</p>
+        <p class="detail-desc">
+          시즈닝 바를 밀어 넣기에 가장 최적화된 내부 직경과,
+          고르게 맛을 분사하는 12개의 정밀 타공을 갖춘 CORE-BORE 스큐어입니다.
+          이미 시즈닝 바를 보유하고 있거나,
+          한 번에 더 많은 요리를 올리고 싶은 분들을 위한 확장팩입니다.
+        </p>
+
+        <div class="detail-specs">
+          <h3>구성품 (Components)</h3>
+          <ul>
+            <li>
+              <strong>Option A: 3-Pack</strong>
+              <span>304 스테인리스 스틸 정밀 꼬치 3개</span>
+            </li>
+            <li>
+              <strong>Option B: 5-Pack</strong>
+              <span>304 스테인리스 스틸 정밀 꼬치 5개</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="detail-why">
+          <h3>Why this?</h3>
+          <p>이미 CORE-BORE를 사용 중이고 스큐어만 추가로 필요한 숙련자를 위한 확장팩입니다.
+            대규모 바베큐 파티나 다양한 고기를 동시에 조리할 때,
+            더 많은 스큐어가 있으면 기다리는 시간 없이 즐길 수 있습니다.</p>
+        </div>
+
+        <div class="detail-recommend">
+          <span class="recommend-label">추천 대상</span>
+          <span class="recommend-tag">기존 사용자</span>
+          <span class="recommend-tag">장비 확장</span>
+          <span class="recommend-tag">대규모 파티</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
   <section class="section section-warm">
     <div class="container">
       <div class="detail-features fade-up">
@@ -131,6 +167,7 @@
     </div>
   </section>
 
+  <!-- OTHER PRODUCTS -->
   <section class="section section-cream">
     <div class="container">
       <div class="other-products-header fade-up"><h2 class="font-serif">다른 제품도 살펴보세요</h2></div>
@@ -145,7 +182,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-brand"><div class="logo font-display">CORE-BORE</div><p>Meat the Core. Flavor from the Inside Out.<br>EST 1995</p></div>
+        <div class="footer-brand"><div class="logo font-display">CORE-BORE</div><p>Meat the Core. Flavor from the Inside Out.<br>EST 1995 &mdash; Don't just cook the surface, conquer the core.</p></div>
         <div class="footer-col"><h4>Products</h4><ul><li><a href="founders-kit.html">The Founder's Kit</a></li><li><a href="master-bore.html">Master-Bore Pack</a></li><li><a href="skewer-expansion.html">Skewer Expansion</a></li><li><a href="core-refill.html">Core-Refill</a></li></ul></div>
         <div class="footer-col"><h4>Company</h4><ul><li><a href="../index.html#story">Brand Story</a></li><li><a href="../index.html#engineering">Engineering</a></li><li><a href="../index.html#howto">How to Use</a></li></ul></div>
         <div class="footer-col"><h4>Support</h4><ul><li><a href="#">FAQ</a></li><li><a href="#">Shipping & Returns</a></li><li><a href="#">Contact Us</a></li></ul></div>
